@@ -1,0 +1,59 @@
+body {
+  margin: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(/img/background.jpg);
+  height: 400px;
+}
+
+section {
+  background-color: #212121;
+  margin: 24px;
+  padding: 24px 36px;
+  text-align: center;
+  border-radius: 12px;
+  box-shadow: 5px 5px 8px #ffd54f;
+}
+
+#title {
+  color: #ffffff;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  padding-bottom: 12px;
+}
+
+#title > h1 {
+  font-family: 'Silkscreen', cursive;
+  margin: 0;
+}
+
+#options {
+  background-color: #484848;
+  padding: 12px 6px;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+}
+
+button {
+  font-size: 46px;
+  background-color: #484848;
+  border: #484848;
+}
+
+#result, #scoreboard {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  padding-top: 16px;
+  color: #ffffff;
+}
+
+#reset {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 16px;
+  color: #ffd54f;
+  border: 1px solid #ffd54f;
+  border-radius: 5px;
+  padding: 6px;
+}
