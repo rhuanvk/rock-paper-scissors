@@ -12,6 +12,7 @@ section {
   margin: 24px;
   padding: 24px 36px;
   text-align: center;
+  border: 1px solid #ffd54f;
   border-radius: 12px;
   box-shadow: 5px 5px 8px #ffd54f;
 }
@@ -30,6 +31,7 @@ section {
 #options {
   background-color: #484848;
   padding: 12px 6px;
+  border: 1px solid #ffd54f;
   border-radius: 12px;
   display: flex;
   justify-content: center;
