@@ -30,10 +30,10 @@ function playGame(pChoice) {
       (pChoice == "Paper" && cChoice == "Rock") ||
       (pChoice == "Scissors" && cChoice == "Paper")
    ) {
-      result.innerHTML = `Computer chose ${cChoice}.<br /> ${pChoice} beats ${cChoice}. You score! `;
+      result.innerHTML = `Computer chose ${cChoice}.<br /> <span class="text-color">Player chose ${pChoice}.</span><br /> ${pChoice} beats ${cChoice}. You score! `;
       pScore++;
    } else {
-      result.innerHTML = `Computer chose ${cChoice}.<br /> ${cChoice} beats ${pChoice}. Computer score!`;
+      result.innerHTML = `Computer chose ${cChoice}.<br /> <span class="text-color"> Player chose ${pChoice}.</span><br /> ${cChoice} beats ${pChoice}. Computer score!`;
       cScore++;
    }
 }

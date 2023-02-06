@@ -8,13 +8,14 @@ body {
 }
 
 section {
+  margin-top: 200px;
   background-color: #212121;
-  margin: 24px;
   padding: 24px 36px;
   text-align: center;
   border: 2px solid #ffd54f;
   border-radius: 12px;
   box-shadow: 5px 5px 8px #ffd54f;
+  height: 100%;
 }
 
 #title {
@@ -23,7 +24,7 @@ section {
   padding-bottom: 12px;
 }
 
-#title > h1 {
+#title>h1 {
   font-family: 'Silkscreen', cursive;
   margin: 0;
 }
@@ -45,7 +46,8 @@ button {
   border: #484848;
 }
 
-#result, #scoreboard {
+#result,
+#scoreboard {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   padding-top: 16px;
   color: #ffffff;
@@ -58,4 +60,8 @@ button {
   border: 1px solid #ffd54f;
   border-radius: 5px;
   padding: 6px;
+}
+
+.text-color {
+  color: #ffd54f;
 }
