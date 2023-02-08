@@ -61,6 +61,31 @@ img:hover {
   animation: pulse 2s infinite;
 }
 
+.player-wins {
+  display: inline-block;
+  font-family: 'Silkscreen', cursive;
+  background-color: var(--fifth-color);
+  padding: 5px 15px;
+  color: var(--primary-color);
+  transform: rotate(-5deg);
+  -ms-transform: rotate(-5deg);
+  -webkit-transform: rotate(-5deg);
+  border-radius: 5px;
+  margin-left: 5px;
+}
+
+.computer-wins {
+  display: inline-block;
+  font-family: 'Silkscreen', cursive;
+  background-color: var(--tertiary-color);
+  padding: 5px 15px;
+  color: var(--primary-color);
+  transform: rotate(-5deg);
+  -ms-transform: rotate(-5deg);
+  -webkit-transform: rotate(-5deg);
+  margin-left: 5px;
+}
+
 .game-icons {
   width: 60px;
   height: 60px;
@@ -114,6 +139,11 @@ img:hover {
 
 .player-color {
   color: #ffd54f;
+}
+
+.game-score {
+  font-size: 50px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 

@@ -41,12 +41,14 @@ function playGame(pChoice) {
 // Mostra o placar e encerra o jogo quando alguém alcançar 5 vitórias
 function showScore() {
    for (let i = 0; i < 5; i++) {
-      scoreboard.innerHTML = `Score: <br /> ${pScore} x ${cScore}`;
+      scoreboard.innerHTML = `Score: <br /> <span class="game-score"> ${pScore} :  ${cScore} </span> `;
    }
    if (pScore === 5) {
-      scoreboard.innerHTML += "<br /> <p>Congratulations, you win!</p>";
+      scoreboard.innerHTML +=
+         "<br /> <p>Congratulations, <span class='player-wins'>you win!</span></p>";
    } else if (cScore === 5) {
-      scoreboard.innerHTML += "<br /> <p>Game over! Computer wins.</p>";
+      scoreboard.innerHTML +=
+         "<br /> <p>Game over! <span class='computer-wins'>Computer wins.</span></p>";
    }
    if (pScore === 5 || cScore === 5) {
       scoreboard.innerHTML +=
