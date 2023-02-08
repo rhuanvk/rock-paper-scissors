@@ -1,36 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link
+         href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap"
+         rel="stylesheet"
+      />
+      <link rel="stylesheet" href="style.css" />
+      <script src="script.js" defer></script>
+      <title>Rock, Paper, Scissors</title>
+   </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
-  <script src="script.js" defer></script>
-  <title>Rock, Paper, Scissors</title>
-</head>
-
-<body>
-  <section>
-    <div id="title">
-      <h1>Rock, Paper, Scissors</h1>
-      <p>Choose one to play against computer</p>
-    </div>
-    <div id="options">
-      <button type="button" id="0">&#x270A</button>
-      <button type="button" id="1">&#x1F590</button>
-      <button type="button" id="2">&#x270C</button>
-    </div>
-    <div id="result">
-    </div>
-    <div id="scoreboard">
-    </div>
-  </section>
-</body>
-
+   <body>
+      <section>
+         <div id="title">
+            <h1>Rock, Paper, Scissors</h1>
+            <p>Choose one to play against computer</p>
+         </div>
+         <div id="options">
+            <button type="button" id="0">
+               <img
+                  class="game-icons game-icons__rock"
+                  src="./img/icon-rock.svg"
+               />
+            </button>
+            <button type="button" id="1">
+               <img
+                  src="./img/icon-paper.svg"
+                  class="game-icons game-icons__paper"
+               />
+            </button>
+            <button type="button" id="2">
+               <img
+                  src="./img/icon-scissors.svg"
+                  class="game-icons game-icons__scissors"
+               />
+            </button>
+         </div>
+         <div id="result"></div>
+         <div id="scoreboard"></div>
+      </section>
+   </body>
 </html>
