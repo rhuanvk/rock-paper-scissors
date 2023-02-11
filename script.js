@@ -46,7 +46,7 @@ function showScore() {
         scoreboard.innerHTML = `Score: <br /> <span class="game-score"> ${playerScore} :  ${computerScore} </span> `;
     }
     if (playerScore === 5) {
-        scoreboard.innerHTML += "<br /> <p>Congratulations, <span class='player-wins'>you win!</span></p>";
+        scoreboard.innerHTML += "<br /> <p>Congratulations! <span class='player-wins'>You win.</span></p>";
     }
     else if (computerScore === 5) {
         scoreboard.innerHTML += "<br /> <p>Game over! <span class='computer-wins'>Computer wins.</span></p>";
