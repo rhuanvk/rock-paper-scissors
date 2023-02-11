@@ -18,7 +18,7 @@ buttons.forEach((button) =>
     })
 );
 
-// Play the round accordingly the pressed button
+// Play the round accordingly to which button was pressed
 function playRound(playerChoice) {
     // Generate a random choice for computer
     const randomNum = Math.floor(Math.random() * 3);
