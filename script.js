@@ -35,7 +35,7 @@ function playRound(playerChoice) {
         playerScore++;
     }
     else {
-        result.innerHTML = `Computer chose ${computerChoice}.<br /> <span class="player-color"> Player chose ${playerChoice}.</span><br /> ${computerChoice} beats ${playerChoice}. Computer score!`;
+        result.innerHTML = `Computer chose ${computerChoice}.<br /> <span class="player-color">Player chose ${playerChoice}.</span><br /> ${computerChoice} beats ${playerChoice}. Computer score!`;
         computerScore++;
     }
 }
